@@ -24,11 +24,7 @@ function App() {
           <Route path="/" element={
             <>
               <Hero />
-              <NuestrosClientes />
-              <Services />
-           
-          
-            
+              <NuestrosClientes />          
             </>
           } />
            <Route path="/contact" element={<Contact />} />
